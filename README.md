@@ -5,11 +5,11 @@ This is a very simple script that I thought someone might find useful.
 # Installation
 Download the file "randomMac.php" or the whole repository and include the file into your project. You can do so by using:
 ```php
-include randomMac.php
+include "randomMac.php"
 ```
 or
 ```php
-include randomMac.php
+require "randomMac.php"
 ```
 Alternatively you can copy the whole code into your script where you need it.
 # Usage
