@@ -1,5 +1,5 @@
-# PHP-Mac-Generator
-Have you ever wanted to generate MAC-Adresses in PHP?
+# PHP-MAC-adress-generator
+Have you ever wanted to generate MAC-adresses in PHP?
 This is a very simple script that I thought someone might find useful.
 
 # Installation
@@ -22,7 +22,7 @@ You can output the MAC-adress using echo:
 ```php
 echo randomMac();
 ```
-Or assign it to a value:
+Or assign it to a variable:
 ```php
 $foo = randomMac():
 ```
