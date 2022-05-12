@@ -1,3 +1,5 @@
+<?php
+
 function randomMac()
 {
     $macArray[0] = "A";
