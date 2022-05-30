@@ -1,6 +1,6 @@
 <?php
 
-function randomMac()
+function randomMac(string $delimeter = ":")
 {
     $macArray[0] = "A";
     $macArray[1] = "B";
@@ -20,11 +20,11 @@ function randomMac()
     $macArray[15] = "9";
 
     $randomMac =
-        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . ":" .
-        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . ":" .
-        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . ":" .
-        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . ":" .
-        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . ":" .
+        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . $delimeter .
+        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . $delimeter .
+        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . $delimeter .
+        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . $delimeter .
+        $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)] . $delimeter .
         $macArray[random_int(0, 15)] . $macArray[random_int(0, 15)];
     return $randomMac;
 }
