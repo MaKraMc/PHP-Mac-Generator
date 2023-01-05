@@ -1,4 +1,5 @@
 <?php
+//Put the function anywhere you want.
 
 function randomMac(string $delimeter = ":")
 {
